@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public interface DAO<T> {
 	
-	ArrayList<T> getAll();
+	void getAll();
 	
 	T getPersonel(int i);
 	

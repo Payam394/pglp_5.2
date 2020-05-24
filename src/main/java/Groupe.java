@@ -14,8 +14,8 @@ public class Groupe implements Department, Serializable, DAO<Department>{
 		this.gpName = name;
 	}
 	
-	public ArrayList<Department> getAll() {
-		return sousHierarchie;
+	public void getAll() {
+		//return sousHierarchie;
 	}
 	
 

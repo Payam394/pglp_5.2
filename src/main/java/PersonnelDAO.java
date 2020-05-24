@@ -12,8 +12,15 @@ public class PersonnelDAO implements DAO<Personnel>{
 	ArrayList<Personnel> PersonnelList;
 
 
-	public ArrayList<Personnel> getAll() {
-		return this.PersonnelList;
+	public void getAll() {
+		try {
+			String sql = "Select * From derby";
+			PreparedStatement prepare = connect.prepareStatement(sql);
+		
+		
+	} catch (SQLException e) {
+		// TODO: handle exception
+		}
 	}
 	
 	public PersonnelDAO(Connection conn) {
