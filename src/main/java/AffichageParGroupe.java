@@ -39,35 +39,6 @@ public class AffichageParGroupe implements Container, Serializable{
 			return null;
 		}
 		
-		public void affichageParProfond() {
-			
-			int verifier=0;
-			
-			while(verifier<Arr.size()) {
-				if(Arr.get(verifier) instanceof Groupe) {
-					Groupe test=(Groupe)Arr.get(verifier);
-					System.out.println(test.gpName);
-					
-					for (int i = 0; i < Arr.size(); i++) {
-						
-					}
-					
-					
-					int i=0;
-					
-					while(i<test.getSize()) {
-						Arr.add(test.getIndex(i));
-						i++;
-					}
-				}
-				else {
-					Arr.get(verifier).print();
-				}
-				verifier++;
-			}
-			
-		}
-		
 	}
 	
 	

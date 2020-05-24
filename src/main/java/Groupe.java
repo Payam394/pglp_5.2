@@ -89,6 +89,12 @@ public class Groupe implements Department, Serializable, DAO<Department>{
 		System.out.println("} fin "+gpName+"\n");
 	}
 
+	public void create() {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
 
 	
 

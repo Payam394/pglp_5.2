@@ -4,13 +4,18 @@ public interface DAO<T> {
 	
 	ArrayList<T> getAll();
 	
-	T getPersonel(int p);
+	T getPersonel(int i);
+	
+	//void createTable(T t);
     
     void add(T t);
      
     void delete(T t);
     
-    void update(T p);
+    void update(T t);
+    
+    
+    void create();
 	
 
 }
